@@ -1,6 +1,24 @@
-# vue2-docker-template
+# src
 
-## プロジェクト作成
+## Project setup
 ```
-docker-compose run --rm vue-app sh -c "npm install -g @vue/cli @vue/cli-init && vue create vue-sample"
+yarn install
 ```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
